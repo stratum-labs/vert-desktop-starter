@@ -2,6 +2,8 @@
 
 A minimal template for building desktop applications using Electron, React, TypeScript, and Vite. Features hot-reload in development and proper production builds.
 
+<img src="./src/assets/vert-desktop-init-screen.jpeg" alt="vert-desktop-init-screen" />
+
 ## Features
 
 - **Vite** - Lightning fast build tool
