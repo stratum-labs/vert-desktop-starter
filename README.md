@@ -12,6 +12,7 @@ A minimal template for building desktop applications using Electron, React, Type
 - **Hot Reload** for both React and Electron
 - **Shadcn/UI + Tailwind CSS** for styling
 - **TypeScript** for type safety
+- **Zustand** for state management
 - **Bun** for fast package management
 
 ## Prerequisites

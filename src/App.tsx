@@ -18,7 +18,7 @@ function App() {
           <a href="https://react.dev" target="_blank">
             <img src={reactLogo} className="logo react" alt="React logo" />
           </a>
-          <a href="https://electron.js.org/" target="_blank">
+          <a href="https://electronjs.org/" target="_blank">
             <img src={electronLogo} className="logo electron" alt="Electron logo" />
           </a>
       </div>
