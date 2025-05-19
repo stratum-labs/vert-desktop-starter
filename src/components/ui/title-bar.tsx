@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import type { CSSProperties } from 'react';
 import { Button } from './button';
 
-// Define the electronAPI type
+// Define the electron API type
 declare global {
   interface Window {
-    electronAPI: {
+    electron: {
       minimizeWindow: () => void;
       maximizeWindow: () => void;
       closeWindow: () => void;
@@ -22,9 +22,9 @@ export function CustomTitleBar({ title }: { title: string }) {
   const [isMacOS] = useState(() => navigator.platform.toLowerCase().includes('mac'));
 
   // Window control handlers
-  const handleMinimize = () => window.electronAPI.minimizeWindow();
-  const handleMaximize = () => window.electronAPI.maximizeWindow();
-  const handleClose = () => window.electronAPI.closeWindow();
+  const handleMinimize = () => window.electron.minimizeWindow();
+  const handleMaximize = () => window.electron.maximizeWindow();
+  const handleClose = () => window.electron.closeWindow();
 
   // Add CSS for proper traffic light spacing on macOS
   useEffect(() => {

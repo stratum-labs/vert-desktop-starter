@@ -10,7 +10,7 @@ A minimal template for building desktop applications using Electron, React, Type
 - **React 18** with TypeScript
 - **Electron 28+** with proper security defaults
 - **[SWC](https://github.com/swc-project/swc)** - Speedy Rust-based compiler with built-in minification for js/ts (Babel alternative)
-- **Hot Reload** for both React and Electron
+- **HMR** for both React and Electron
 - **Shadcn/UI + Tailwind CSS** for styling
 - **TypeScript** for type safety
 - **Zustand** for state management
